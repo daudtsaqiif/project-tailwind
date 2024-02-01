@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
+    *{
+        scroll-behavior: smooth;
+    }
     .background-imgs {
         background-image: url(https://4kwallpapers.com/images/wallpapers/purple-planet-saturn-rings-nebula-galaxy-astronomy-stars-4480x2520-6416.jpg);
         background-repeat: no-repeat;
@@ -48,16 +51,19 @@
                 <ul
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 text-white font-poppins">
                     <li>
-                        <a href="#" class="block py-2 px-3 hover:text-slate-600 duration-500">Home</a>
+                        <a href="#home" class="block py-2 px-3 hover:text-slate-600 duration-500">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 hover:text-slate-600 duration-500">Explore</a>
+                        <a href="#new" class="block py-2 px-3 hover:text-slate-600 duration-500">New Items</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 hover:text-slate-600 duration-500">Author</a>
+                        <a href="#hot" class="block py-2 px-3 hover:text-slate-600 duration-500">Hot collection</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 hover:text-slate-600 duration-500">Activity</a>
+                        <a href="#sell" class="block py-2 px-3 hover:text-slate-600 duration-500">Top sellers</a>
+                    </li>
+                    <li>
+                        <a href="#create" class="block py-2 px-3 hover:text-slate-600 duration-500">Create and Sell</a>
                     </li>
                 </ul>
             </div>
@@ -66,7 +72,7 @@
     <!-- end nav -->
 
     <!-- container -->
-    <section class=" background-imgs">
+    <section class=" background-imgs" id="home">
         <div class="lg:flex">
             <div class="flex justify-center items-center order-5 lg:p-10">
                 <img src="/src/img/ungu.png" alt="" width="1350" class="p-3 mt-20">
@@ -158,7 +164,7 @@
 
     <!-- card -->
     <section class=" mt-40 ">
-        <h1 class="text-3xl text-white font-poppins font-bold m-10">New Items</h1>
+        <h1 class="text-3xl text-white font-poppins font-bold m-10" id="new">New Items</h1>
         <div class="sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-4 lg:gap-3 lg:mx-10">
             <div class="max-w-sm rounded-lg shadow-lg bg-gray-800 m-4 ">
                 <a href="#">
@@ -247,7 +253,7 @@
 
     <!-- collection -->
     <section class=" mt-40 ">
-        <h1 class="text-3xl font-poppins font-bold m-10 text-white">Hot Collection</h1>
+        <h1 class="text-3xl font-poppins font-bold m-10 text-white" id="hot">Hot Collection</h1>
         <div class="sm:grid sm:grid-cols-2 md:gap-3 md:mx-10 lg:grid lg:grid-cols-5 lg:gap-2 lg:mx-10">
             <div class="max-w-sm  rounded-lg shadow-lg bg-gray-800 m-4 flex-col flex justify-center items-center">
                 <div class="absolute mt-32 lg:mt-20">
@@ -335,7 +341,7 @@
 
     <!-- sellers -->
     <section class="mt-40">
-        <h1 class="text-3xl text-white font-poppins font-bold m-10">Top Sellers</h1>
+        <h1 class="text-3xl text-white font-poppins font-bold m-10" id="sell">Top Sellers</h1>
         <div class="sm:grid-cols-2 sm:grid lg:grid lg:grid-cols-4">
             <div class="px-10 py-5 ">
                 <div class="flex items-center">
@@ -523,7 +529,7 @@
 
     <!-- Create -->
     <section class="mt-40">
-        <h1 class="text-3xl text-white font-poppins font-bold m-10">Create And Sell Now</h1>
+        <h1 class="text-3xl text-white font-poppins font-bold m-10" id="create">Create And Sell Now</h1>
         <div class="sm:grid sm:grid-cols-2 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
             <div
                 class="max-w-sm m-10 p-6 bg-gray-800 shadow-xl rounded-md group hover:bg-purple-500 hover:shadow-md hover:shadow-white duration-500 cursor-default">
@@ -674,7 +680,7 @@
                                 d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
                                 clip-rule="evenodd" />
                         </svg>
-                        <span class="sr-only">Facebook page</span>
+                        <span class="sr-only">Linkedin</span>
                     </a>
                     <a href="#" class="text-gray-400 hover:text-purple-800">
                         <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
