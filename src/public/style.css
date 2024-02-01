@@ -1388,6 +1388,14 @@ input:checked + .toggle-bg {
   height: 18rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1438,6 +1446,10 @@ input:checked + .toggle-bg {
 
 .w-72 {
   width: 18rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .max-w-screen-xl {
@@ -1651,6 +1663,10 @@ input:checked + .toggle-bg {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-e-lg {
