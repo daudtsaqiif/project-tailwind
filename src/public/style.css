@@ -1081,6 +1081,10 @@ input:checked + .toggle-bg {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -1767,6 +1771,10 @@ input:checked + .toggle-bg {
 
 .to-pink-300 {
   --tw-gradient-to: #F8B4D9 var(--tw-gradient-to-position);
+}
+
+.bg-fixed {
+  background-attachment: fixed;
 }
 
 .bg-clip-text {
