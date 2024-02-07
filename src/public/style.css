@@ -1233,10 +1233,6 @@ input:checked + .toggle-bg {
   margin-left: 0.75rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
 .ms-2 {
   margin-inline-start: 0.5rem;
 }
@@ -1275,10 +1271,6 @@ input:checked + .toggle-bg {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
 }
 
 .block {
@@ -1381,10 +1373,6 @@ input:checked + .toggle-bg {
   width: 3.5rem;
 }
 
-.w-2\/12 {
-  width: 16.666667%;
-}
-
 .w-24 {
   width: 6rem;
 }
@@ -1401,10 +1389,6 @@ input:checked + .toggle-bg {
   width: 1.25rem;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-64 {
   width: 16rem;
 }
@@ -1415,10 +1399,6 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
 }
 
 .max-w-md {
@@ -1761,11 +1741,6 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-green-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(4 108 78 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -1783,11 +1758,6 @@ input:checked + .toggle-bg {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .p-0 {
@@ -1820,10 +1790,6 @@ input:checked + .toggle-bg {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-10 {
@@ -1876,11 +1842,6 @@ input:checked + .toggle-bg {
   padding-bottom: 1.5rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1911,10 +1872,6 @@ input:checked + .toggle-bg {
 
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-justify {
@@ -2533,24 +2490,12 @@ input:checked + .toggle-bg {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:grid-cols-6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .sm\:justify-center {
     justify-content: center;
   }
 
   .sm\:gap-2 {
     gap: 0.5rem;
-  }
-
-  .sm\:gap-4 {
-    gap: 1rem;
   }
 
   .sm\:py-3 {
